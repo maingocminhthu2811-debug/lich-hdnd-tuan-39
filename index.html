@@ -1,0 +1,2707 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <!-- ========================================================
+       1. THÔNG TIN META & SEO TIÊU CHUẨN (SEO & META TAGS)
+       ======================================================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Lịch Công Tác Tuần 39 - HĐND TPHCM</title>
+  <meta name="description" content="Trang web Infographic Tương tác Thông tin trọng tâm Lịch công tác Tuần 39 (28-9 đến 4-10) của Hội đồng Nhân dân Thành phố Hồ Chí Minh.">
+  <meta name="keywords" content="HĐND TPHCM, Lịch công tác tuần 39, Võ Văn Minh, Luật Phát triển đô thị, Kỳ họp thứ 6, Infographic tương tác">
+  <meta name="author" content="Hội đồng Nhân dân Thành phố Hồ Chí Minh">
+  
+  <!-- Open Graph & Social Sharing Cards -->
+  <meta property="og:title" content="Lịch Công Tác Tuần 39 - HĐND TPHCM">
+  <meta property="og:description" content="Trang web Infographic Tương tác Thông tin trọng tâm Lịch công tác Tuần 39 (28-9 đến 4-10) của Hội đồng Nhân dân Thành phố Hồ Chí Minh.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Fonts: Be Vietnam Pro (Tối ưu tuyệt đối cho tiếng Việt và phong cách hành chính - hiện đại) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ========================================================
+       2. HỆ THỐNG BIẾN MÀU SẮC & GIAO DIỆN (CSS CUSTOM PROPERTIES)
+       Thiết kế theo chuẩn nhận diện hành chính hiện đại:
+       - Màu đỏ quốc kỳ / huyết dụ trang trọng làm điểm nhấn
+       - Màu vàng đồng / kim khí biểu trưng quyền lực công quyền
+       - Màu xanh navy / xanh lam hiện đại cho phát triển đô thị
+       ======================================================== */
+    :root {
+      /* Bảng màu chính */
+      --color-primary: #b91c1c;        /* Đỏ cờ đậm, trang trọng */
+      --color-primary-dark: #881337;   /* Huyết dụ đậm */
+      --color-primary-light: #fef2f2;  /* Nền đỏ phớt nhẹ */
+      --color-primary-border: #fecaca;
+      
+      --color-gold: #d97706;           /* Vàng đồng / hổ phách */
+      --color-gold-light: #fffbeb;
+      --color-gold-border: #fde68a;
+
+      --color-urban: #0284c7;          /* Xanh lam đô thị (Ban Đô thị & Ban KT-NS) */
+      --color-urban-light: #f0f9ff;
+      --color-urban-border: #bae6fd;
+
+      --color-legal: #0d9488;          /* Xanh mòng két (Ban Pháp chế & VH-XH) */
+      --color-legal-light: #f0fdfa;
+      --color-legal-border: #99f6e4;
+
+      --color-party: #4f46e5;          /* Xanh tím chàm (Kiểm tra Đảng & Giám sát) */
+      --color-party-light: #eef2ff;
+      --color-party-border: #c7d2fe;
+
+      /* 4 Tone màu chủ đề theo yêu cầu */
+      /* Mục 1: Đỏ */
+      --theme-red: #b91c1c;
+      --theme-red-gradient: linear-gradient(135deg, #b91c1c, #dc2626);
+      --theme-red-light: #fef2f2;
+      --theme-red-border: #fecaca;
+
+      /* Mục 2: Xanh biển */
+      --theme-blue: #0284c7;
+      --theme-blue-gradient: linear-gradient(135deg, #0284c7, #0ea5e9);
+      --theme-blue-light: #f0f9ff;
+      --theme-blue-border: #bae6fd;
+
+      /* Mục 3: Xanh lá */
+      --theme-green: #15803d;
+      --theme-green-gradient: linear-gradient(135deg, #15803d, #16a34a);
+      --theme-green-light: #f0fdf4;
+      --theme-green-border: #bbf7d0;
+
+      /* Mục 4: Cam */
+      --theme-orange: #ea580c;
+      --theme-orange-gradient: linear-gradient(135deg, #ea580c, #f97316);
+      --theme-orange-light: #fff7ed;
+      --theme-orange-border: #fed7aa;
+
+      /* Nền & Bề mặt (Neutral Surface) */
+      --bg-body: #f8fafc;              /* Slate 50 nhẹ nhàng */
+      --bg-surface: #ffffff;           /* Card trắng tinh khiết */
+      --bg-surface-elevated: #ffffff;
+      --text-main: #0f172a;            /* Slate 900 đậm nét, tương phản cao */
+      --text-muted: #475569;           /* Slate 600 dễ đọc */
+      --text-light: #64748b;           /* Slate 500 phụ trợ */
+      --border-subtle: #e2e8f0;        /* Slate 200 viền thanh thoát */
+      --border-accent: #cbd5e1;
+
+      /* Hiệu ứng bóng (Elevation Shadows) */
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+      --shadow-glow: 0 0 20px -3px rgba(185, 28, 28, 0.15);
+
+      /* Bo góc & Bố cục */
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --radius-full: 9999px;
+      --container-max: 1240px;
+
+      /* Tốc độ chuyển động mượt mà (Motion Curves) */
+      --transition-fast: 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Chế độ tối / High Contrast nếu người dùng ưa thích */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-body: #090d16;
+        --bg-surface: #111827;
+        --bg-surface-elevated: #1f2937;
+        --text-main: #f8fafc;
+        --text-muted: #cbd5e1;
+        --text-light: #94a3b8;
+        --border-subtle: #1e293b;
+        --border-accent: #334155;
+        --color-primary-light: rgba(185, 28, 28, 0.15);
+        --color-urban-light: rgba(2, 132, 199, 0.15);
+        --color-legal-light: rgba(13, 148, 136, 0.15);
+        --color-party-light: rgba(79, 70, 229, 0.15);
+      }
+    }
+
+    /* ========================================================
+       3. CSS RESET & TIÊU CHUẨN HIỂN THỊ CƠ BẢN
+       ======================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.65;
+      font-weight: 400;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Đảm bảo hình ảnh và SVG luôn co giãn tốt */
+    img, svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, input, select {
+      font: inherit;
+      color: inherit;
+    }
+
+    /* Lớp hỗ trợ đọc màn hình (Screen Reader Only) */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* ========================================================
+       4. THANH TIẾN ĐỘ CUỘN TRANG (SCROLL PROGRESS BAR)
+       ======================================================== */
+    #scroll-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-gold), var(--color-urban));
+      z-index: 1000;
+      transition: width 0.1s ease-out;
+      box-shadow: 0 0 10px rgba(185, 28, 28, 0.5);
+    }
+
+    /* ========================================================
+       5. HEADER & THANH ĐIỀU HƯỚNG CỐ ĐỊNH (STICKY NAVBAR)
+       ======================================================== */
+    .top-navbar {
+      position: sticky;
+      top: 0;
+      z-index: 900;
+      background-color: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-subtle);
+      transition: background-color var(--transition-normal), box-shadow var(--transition-normal);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .top-navbar {
+        background-color: rgba(17, 24, 39, 0.92);
+      }
+    }
+
+    .nav-container {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0.75rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    /* Logo & Tên đơn vị */
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-shrink: 0;
+    }
+
+    .brand-emblem {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, var(--color-primary), #991b1b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      box-shadow: 0 2px 6px rgba(185, 28, 28, 0.35);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: -0.01em;
+      color: var(--color-primary);
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    .brand-subtitle {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      line-height: 1.2;
+    }
+
+    /* Menu liên kết điều hướng */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      list-style: none;
+    }
+
+    .nav-link {
+      font-size: 0.825rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding: 0.45rem 0.75rem;
+      border-radius: var(--radius-sm);
+      transition: all var(--transition-fast);
+      white-space: nowrap;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--color-primary);
+      background-color: var(--color-primary-light);
+    }
+
+    /* Nút hành động nhanh */
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      padding: 0.45rem 0.85rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-subtle);
+      background-color: var(--bg-surface);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .btn-action:hover {
+      background-color: var(--border-subtle);
+      color: var(--text-main);
+    }
+
+    .btn-action-primary {
+      background-color: var(--color-primary);
+      border-color: var(--color-primary);
+      color: #ffffff;
+    }
+
+    .btn-action-primary:hover {
+      background-color: var(--color-primary-dark);
+      color: #ffffff;
+    }
+
+    /* ========================================================
+       6. KHUNG CHỨA TRANG CHÍNH & HERO INFOGRAPHIC BANNER
+       ======================================================== */
+    .main-wrapper {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 4rem;
+      width: 100%;
+      flex: 1;
+    }
+
+    /* Banner chính mang tính chất Infographic - Nền màu đậm hành chính trang trọng, tươi sáng rạng rỡ (không tối) */
+    .hero-infographic {
+      position: relative;
+      background: linear-gradient(135deg, #b91c1c 0%, #dc2626 28%, #ea580c 58%, #b45309 82%, #c026d3 100%);
+      background-size: 260% 260%;
+      animation: heroGradientShift 12s ease infinite;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: var(--radius-lg);
+      padding: 2.75rem 2.25rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 14px 34px -4px rgba(185, 28, 28, 0.32), 0 4px 12px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      color: #ffffff;
+    }
+
+    @keyframes heroGradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* TIÊU ĐỀ H1 - Nhấn nhá tiêu đề, phân tách chữ trắng & vàng hoàng gia, xuống dòng rõ nghĩa */
+    .hero-title {
+      font-size: 1.85rem;
+      font-weight: 850;
+      line-height: 1.35;
+      color: #ffffff;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.01em;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero-title-main {
+      display: block;
+      color: #ffffff;
+      font-size: clamp(1.4rem, 3.5vw, 2.25rem);
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .hero-title-sub {
+      display: block;
+      margin-top: 0.45rem;
+      color: #fef08a;
+      font-size: clamp(1.2rem, 2.7vw, 1.75rem);
+      font-weight: 800;
+      background: linear-gradient(90deg, #ffffff 0%, #fef08a 60%, #fde047 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: none;
+    }
+
+    .hero-title-date {
+      display: inline-block;
+      margin-top: 0.35rem;
+      color: #fff7ed;
+      font-size: clamp(1rem, 2.2vw, 1.35rem);
+      font-weight: 700;
+      padding: 0.2rem 0.75rem;
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: var(--radius-full);
+      backdrop-filter: blur(4px);
+      -webkit-text-fill-color: #ffffff;
+    }
+
+    @media (min-width: 768px) {
+      .hero-title {
+        font-size: 2.35rem;
+      }
+    }
+
+    /* ĐOẠN DẪN NHẬP - Chữ trắng sáng dịu, rõ nét trên nền đậm */
+    .hero-lead-text {
+      font-size: 1.075rem;
+      line-height: 1.8;
+      color: #ffffff;
+      max-width: 950px;
+      margin-bottom: 0;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ========================================================
+       7. CÁC THẺ CHỈ SỐ ĐỒ HỌA TRỌNG TÂM (INFOGRAPHIC STAT PILLARS)
+       Dữ liệu thống kê cấu trúc hóa từ chính nội dung lịch công tác
+       ======================================================== */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .stat-card {
+      background-color: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.15rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transition: all var(--transition-normal);
+      cursor: default;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .stat-card {
+        background-color: rgba(31, 41, 55, 0.65);
+      }
+    }
+
+    .stat-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--border-accent);
+    }
+
+    .stat-icon-wrap {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .stat-icon-wrap svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .stat-value {
+      font-size: 1.5rem;
+      font-weight: 800;
+      line-height: 1.1;
+      color: var(--text-main);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    /* ========================================================
+       8. KHUNG ĐIỀU KHIỂN & BỘ LỌC TƯƠNG TÁC (INTERACTIVE TOOLBAR)
+       ======================================================== */
+    .interactive-toolbar {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem;
+      margin-bottom: 2.25rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .toolbar-top-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    /* Ô tìm kiếm thông minh */
+    .search-box-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 260px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.6rem 1rem 0.6rem 2.5rem;
+      font-size: 0.875rem;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      transition: all var(--transition-fast);
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.12);
+      background-color: var(--bg-surface);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.85rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      color: var(--text-light);
+      pointer-events: none;
+    }
+
+    /* Phân loại theo ngày (Day Pills Navigator) */
+    .day-filter-container {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      overflow-x: auto;
+      padding-bottom: 0.25rem;
+      scrollbar-width: thin;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .day-pill-btn {
+      padding: 0.45rem 0.85rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      background-color: var(--bg-body);
+      color: var(--text-muted);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all var(--transition-fast);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .day-pill-btn:hover {
+      background-color: var(--border-subtle);
+      color: var(--text-main);
+    }
+
+    .day-pill-btn.active {
+      background-color: var(--color-primary);
+      border-color: var(--color-primary);
+      color: #ffffff;
+      box-shadow: 0 2px 6px rgba(185, 28, 28, 0.25);
+    }
+
+    /* Bộ lọc nhóm nhiệm vụ */
+    .group-filter-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+      padding-top: 0.75rem;
+      border-top: 1px dashed var(--border-subtle);
+    }
+
+    .group-filter-label {
+      font-size: 0.785rem;
+      font-weight: 600;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-right: 0.25rem;
+    }
+
+    .group-pill-btn {
+      padding: 0.35rem 0.75rem;
+      font-size: 0.775rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-subtle);
+      background-color: var(--bg-surface);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .group-pill-btn:hover {
+      border-color: var(--text-light);
+      color: var(--text-main);
+    }
+
+    .group-pill-btn.active {
+      background-color: var(--text-main);
+      border-color: var(--text-main);
+      color: var(--bg-surface);
+    }
+
+    /* ========================================================
+       9. KHU VỰC CÁC PHÂN ĐOẠN NỘI DUNG CHÍNH (SECTIONS)
+       100% Nội dung chữ nguyên văn được trình bày tại đây
+       ======================================================== */
+    .section-block {
+      margin-bottom: 3.5rem;
+      scroll-margin-top: 80px;
+    }
+
+    .section-header-box {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--border-subtle);
+    }
+
+    .section-number-badge {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #ffffff;
+      flex-shrink: 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section-header-content {
+      flex: 1;
+    }
+
+    /* TIÊU ĐỀ SECTION BẮT BUỘC 100% NỘI DUNG */
+    .section-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.35;
+    }
+
+    @media (min-width: 768px) {
+      .section-title {
+        font-size: 1.55rem;
+      }
+    }
+
+    /* ========================================================
+       ĐỒNG BỘ 4 TONE MÀU CHỦ ĐỀ CHO 4 MỤC
+       - Mục 1: Đỏ (#section-1)
+       - Mục 2: Xanh biển (#section-2)
+       - Mục 3: Xanh lá (#section-3)
+       - Mục 4: Cam (#section-voters)
+       ======================================================== */
+    /* --- MỤC 1: TONE MÀU ĐỎ --- */
+    #section-1 .section-number-badge {
+      background: var(--theme-red-gradient) !important;
+      box-shadow: 0 4px 12px rgba(185, 28, 28, 0.3);
+    }
+    #section-1 .section-header-box {
+      border-bottom-color: var(--theme-red-border);
+    }
+    #section-1 .section-title {
+      color: var(--theme-red);
+    }
+    #section-1 .timeline-stream::before {
+      background: linear-gradient(180deg, var(--theme-red), #fecaca);
+    }
+    #section-1 .timeline-node {
+      border-color: var(--theme-red);
+      box-shadow: 0 0 0 4px var(--theme-red-light);
+    }
+    #section-1 .event-card {
+      border-left: 4px solid var(--theme-red);
+    }
+    #section-1 .event-card:hover {
+      border-color: var(--theme-red);
+      box-shadow: 0 4px 14px rgba(185, 28, 28, 0.12);
+    }
+    #section-1 .event-tag {
+      background-color: var(--theme-red-light);
+      color: var(--theme-red);
+      border-color: var(--theme-red-border);
+    }
+    #section-1 .event-text .content-row strong {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--text-main);
+      letter-spacing: -0.01em;
+    }
+
+    /* --- MỤC 2: TONE MÀU XANH BIỂN --- */
+    #section-2 .section-number-badge {
+      background: var(--theme-blue-gradient) !important;
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+    }
+    #section-2 .section-header-box {
+      border-bottom-color: var(--theme-blue-border);
+    }
+    #section-2 .section-title {
+      color: #0369a1;
+    }
+    #section-2 .survey-card {
+      border-color: var(--theme-blue-border);
+    }
+    #section-2 .survey-card::before {
+      background: var(--theme-blue-gradient) !important;
+    }
+    #section-2 .survey-card:hover {
+      border-color: var(--theme-blue);
+      box-shadow: 0 6px 18px rgba(2, 132, 199, 0.16);
+    }
+    #section-2 .event-tag {
+      background-color: var(--theme-blue-light) !important;
+      color: var(--theme-blue) !important;
+      border: 1px solid var(--theme-blue-border) !important;
+      font-size: 1.05rem !important;
+      font-weight: 800 !important;
+      padding: 0.4rem 0.95rem !important;
+      border-radius: var(--radius-sm) !important;
+      letter-spacing: -0.01em !important;
+      display: inline-block !important;
+    }
+    #section-2 .inner-timeline::before {
+      background: linear-gradient(180deg, var(--theme-blue), #bae6fd) !important;
+    }
+    #section-2 .inner-timeline-step::before {
+      border-color: var(--theme-blue) !important;
+      box-shadow: 0 0 0 3px var(--theme-blue-light) !important;
+    }
+    #section-2 .inner-timeline-badge {
+      background-color: var(--theme-blue-light) !important;
+      color: #0369a1 !important;
+      border: 1px solid var(--theme-blue-border) !important;
+    }
+
+    /* --- MỤC 3: TONE MÀU XANH LÁ --- */
+    #section-3 .section-number-badge {
+      background: var(--theme-green-gradient) !important;
+      box-shadow: 0 4px 12px rgba(21, 128, 61, 0.3);
+    }
+    #section-3 .section-header-box {
+      border-bottom-color: var(--theme-green-border);
+    }
+    #section-3 .section-title {
+      color: var(--theme-green);
+    }
+    #section-3 .party-card {
+      border-color: var(--theme-green-border);
+      border-left: 4px solid var(--theme-green);
+    }
+    #section-3 .party-card:hover {
+      border-color: var(--theme-green);
+      box-shadow: 0 6px 18px rgba(21, 128, 61, 0.14);
+    }
+    #section-3 .inner-timeline::before {
+      background: linear-gradient(180deg, var(--theme-green), #bbf7d0) !important;
+    }
+    #section-3 .inner-timeline-step::before {
+      border-color: var(--theme-green) !important;
+      box-shadow: 0 0 0 3px var(--theme-green-light) !important;
+    }
+    #section-3 .inner-timeline-badge {
+      background-color: var(--theme-green-light) !important;
+      color: var(--theme-green) !important;
+      border: 1px solid var(--theme-green-border) !important;
+    }
+
+    /* --- MỤC 4: TONE MÀU CAM --- */
+    #section-voters .section-number-badge {
+      background: var(--theme-orange-gradient) !important;
+      box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+    }
+    #section-voters .section-header-box {
+      border-bottom-color: var(--theme-orange-border);
+    }
+    #section-voters .section-title {
+      color: #c2410c;
+    }
+    #section-voters .voter-card {
+      border-color: var(--theme-orange-border);
+    }
+    #section-voters .voter-card::before {
+      background: var(--theme-orange-gradient) !important;
+    }
+    #section-voters .voter-card:hover {
+      border-color: var(--theme-orange);
+      box-shadow: 0 6px 18px rgba(234, 88, 12, 0.16);
+    }
+    #section-voters .voter-group-badge {
+      background-color: var(--theme-orange-light) !important;
+      color: #c2410c !important;
+      border: 1px solid var(--theme-orange-border) !important;
+      font-size: 1.05rem !important;
+      font-weight: 800 !important;
+      padding: 0.4rem 0.95rem !important;
+      border-radius: var(--radius-sm) !important;
+      letter-spacing: -0.01em !important;
+    }
+    #section-voters .voter-group-badge svg {
+      width: 18px;
+      height: 18px;
+    }
+    #section-voters .inner-timeline::before {
+      background: linear-gradient(180deg, var(--theme-orange), #fed7aa) !important;
+    }
+    #section-voters .inner-timeline-step::before {
+      border-color: var(--theme-orange) !important;
+      box-shadow: 0 0 0 3px var(--theme-orange-light) !important;
+    }
+    #section-voters .inner-timeline-badge {
+      background-color: var(--theme-orange-light) !important;
+      color: #c2410c !important;
+      border: 1px solid var(--theme-orange-border) !important;
+    }
+
+    .section-caption {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+
+    /* ========================================================
+       10. TIMELINE DÒNG THỜI GIAN - NHÓM 1: THƯỜNG TRỰC HĐND
+       ======================================================== */
+    .timeline-stream {
+      position: relative;
+      padding-left: 2rem;
+    }
+
+    /* Trục đường line timeline */
+    .timeline-stream::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 10px;
+      bottom: 20px;
+      width: 2px;
+      background: linear-gradient(180deg, var(--color-primary), var(--border-subtle));
+      border-radius: var(--radius-full);
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 1.5rem;
+      transition: all var(--transition-normal);
+    }
+
+    .timeline-item:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Nút tròn trên trục thời gian */
+    .timeline-node {
+      position: absolute;
+      left: -2rem;
+      top: 1.25rem;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: var(--bg-surface);
+      border: 3px solid var(--color-primary);
+      box-shadow: 0 0 0 4px var(--color-primary-light);
+      transition: all var(--transition-fast);
+      z-index: 2;
+    }
+
+    .timeline-item:hover .timeline-node {
+      transform: scale(1.3);
+      border-color: var(--color-gold);
+      box-shadow: 0 0 0 6px var(--color-gold-light);
+    }
+
+    /* Thẻ nội dung sự kiện */
+    .event-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .event-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: var(--border-accent);
+      transform: translateX(4px);
+    }
+
+    .event-meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.65rem;
+      font-size: 0.775rem;
+    }
+
+    .event-meta-left {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .event-tag {
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-sm);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      font-size: 0.7rem;
+    }
+
+    .tag-primary {
+      background-color: var(--color-primary-light);
+      color: var(--color-primary);
+      border: 1px solid var(--color-primary-border);
+    }
+
+    .tag-urban {
+      background-color: var(--color-urban-light);
+      color: var(--color-urban);
+      border: 1px solid var(--color-urban-border);
+    }
+
+    .tag-legal {
+      background-color: var(--color-legal-light);
+      color: var(--color-legal);
+      border: 1px solid var(--color-legal-border);
+    }
+
+    .tag-party {
+      background-color: var(--color-party-light);
+      color: var(--color-party);
+      border: 1px solid var(--color-party-border);
+    }
+
+    .event-person-tag {
+      font-weight: 600;
+      color: var(--text-main);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .event-person-tag svg {
+      width: 13px;
+      height: 13px;
+      color: var(--color-gold);
+    }
+
+    /* ĐOẠN VĂN NỘI DUNG 100% NGUYÊN VĂN BẮT BUỘC */
+    .event-text {
+      font-size: 0.975rem;
+      line-height: 1.7;
+      color: var(--text-main);
+      font-weight: 500;
+      transition: all var(--transition-normal);
+    }
+
+    /* Nút bấm thu gọn/mở rộng cho timeline card */
+    .event-collapse-btn {
+      display: none; /* Mặc định trên desktop hiển thị đầy đủ, không cần thu gọn */
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      background-color: var(--color-primary-light);
+      border: 1px solid var(--color-primary-border);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      outline: none;
+      user-select: none;
+    }
+
+    .event-collapse-btn:hover {
+      background-color: var(--color-primary);
+      color: #ffffff;
+    }
+
+    .event-collapse-btn svg {
+      width: 14px;
+      height: 14px;
+      transition: transform var(--transition-normal);
+    }
+
+    .event-collapse-btn.is-collapsed svg {
+      transform: rotate(-90deg);
+    }
+
+    /* Tối ưu riêng trên màn hình thiết bị di động (Mobile screens < 768px) */
+    @media (max-width: 767px) {
+      .timeline-stream {
+        padding-left: 1.5rem;
+      }
+
+      .timeline-stream::before {
+        left: 5px;
+      }
+
+      .timeline-node {
+        left: -1.5rem;
+        width: 12px;
+        height: 12px;
+        border-width: 2px;
+      }
+
+      .timeline-item {
+        margin-bottom: 1rem;
+      }
+
+      .event-card {
+        padding: 0.85rem 1rem;
+        cursor: pointer;
+      }
+
+      .event-meta-row {
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      /* Nút mở rộng/thu gọn hiển thị trên Mobile */
+      .event-collapse-btn {
+        display: inline-flex;
+        margin-left: auto;
+      }
+
+      /* Trạng thái thu gọn và mở rộng mượt mà bằng max-height transition */
+      .timeline-stream .timeline-item .event-text {
+        max-height: 500px;
+        opacity: 1;
+        margin-top: 0.25rem;
+        overflow: hidden;
+        transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                    opacity 0.3s ease,
+                    margin-top 0.3s ease;
+      }
+
+      /* Trạng thái thu gọn trên mobile */
+      .timeline-stream .timeline-item.collapsed .event-text {
+        max-height: 0;
+        opacity: 0;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        pointer-events: none;
+      }
+
+      .timeline-item.collapsed .event-card {
+        padding-bottom: 0.85rem;
+      }
+
+      .timeline-item.collapsed .event-collapse-btn svg {
+        transform: rotate(-90deg);
+      }
+    }
+
+    /* ========================================================
+       11. LƯỚI KHẢO SÁT CHUYÊN SÂU - NHÓM 2: 4 BAN HĐND
+       ======================================================== */
+    .survey-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 900px) {
+      .survey-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .survey-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .survey-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+    }
+
+    .survey-card.card-urban::before { background-color: var(--color-urban); }
+    .survey-card.card-finance::before { background-color: var(--color-gold); }
+    .survey-card.card-legal::before { background-color: var(--color-legal); }
+    .survey-card.card-social::before { background-color: var(--color-primary); }
+
+    .survey-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-4px);
+    }
+
+    .survey-card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .survey-card-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .survey-card-icon svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .survey-card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    /* ĐOẠN VĂN NỘI DUNG 100% NGUYÊN VĂN BẮT BUỘC */
+    .survey-body-text {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-main);
+      font-weight: 400;
+      flex: 1;
+    }
+
+    /* Dạng timeline phía trong thẻ (Inner Nested Timeline) */
+    .inner-timeline {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-top: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .inner-timeline::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: linear-gradient(180deg, var(--color-primary), var(--border-subtle));
+      border-radius: var(--radius-full);
+    }
+
+    .inner-timeline-step {
+      position: relative;
+      font-size: 0.925rem;
+      line-height: 1.65;
+      color: var(--text-main);
+    }
+
+    .inner-timeline-step::before {
+      content: '';
+      position: absolute;
+      left: -1.5rem;
+      top: 0.45rem;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: var(--bg-surface);
+      border: 2.5px solid var(--color-primary);
+      box-shadow: 0 0 0 3px var(--color-primary-light);
+      transition: all var(--transition-fast);
+    }
+
+    .inner-timeline-step:hover::before {
+      transform: scale(1.25);
+      border-color: var(--color-gold);
+    }
+
+    .inner-timeline-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: var(--radius-sm);
+      margin-bottom: 0.25rem;
+      letter-spacing: 0.02em;
+    }
+
+    .step-urban::before { border-color: var(--color-urban); box-shadow: 0 0 0 3px var(--color-urban-light); }
+    .step-finance::before { border-color: var(--color-gold); box-shadow: 0 0 0 3px var(--color-gold-light); }
+    .step-legal::before { border-color: var(--color-legal); box-shadow: 0 0 0 3px var(--color-legal-light); }
+    .step-social::before { border-color: var(--color-primary); box-shadow: 0 0 0 3px var(--color-primary-light); }
+    .step-party::before { border-color: var(--color-party); box-shadow: 0 0 0 3px var(--color-party-light); }
+    .step-voter::before { border-color: #b91c1c; box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.15); }
+    .step-leadership::before { border-color: var(--color-primary); box-shadow: 0 0 0 3px var(--color-primary-light); }
+
+    /* Định dạng cụm nội dung có nghĩa, phân dòng trực quan */
+    .content-sub-item {
+      margin-top: 0.35rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .content-row {
+      display: flex;
+      align-items: baseline;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+    }
+
+    .content-badge-label {
+      font-size: 0.725rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      padding: 0.1rem 0.45rem;
+      border-radius: var(--radius-sm);
+      white-space: nowrap;
+    }
+
+    .badge-label-person {
+      background-color: var(--color-gold-light);
+      color: #92400e;
+      border: 1px solid var(--color-gold-border);
+    }
+
+    .badge-label-task {
+      background-color: var(--color-primary-light);
+      color: var(--color-primary);
+      border: 1px solid var(--color-primary-border);
+    }
+
+    .badge-label-venue {
+      background-color: #f1f5f9;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+    }
+
+    .badge-label-online {
+      background-color: #eff6ff;
+      color: #1e40af;
+      border: 1px solid #bfdbfe;
+    }
+
+    /* Điểm nhấn Infographic đồ họa nhỏ bên trong thẻ */
+    .survey-infographic-chips {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px dashed var(--border-subtle);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .micro-chip {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.5rem;
+      background-color: var(--bg-body);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .micro-chip svg {
+      width: 12px;
+      height: 12px;
+      opacity: 0.7;
+    }
+
+    /* ========================================================
+       12. KHU VỰC NHÓM 3: CÔNG TÁC KIỂM TRA ĐẢNG & GIÁM SÁT CHUYÊN ĐỀ
+       ======================================================== */
+    .party-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 800px) {
+      .party-grid {
+        grid-template-columns: 1fr 1.3fr;
+      }
+    }
+
+    .party-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--color-party-border);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      transition: all var(--transition-normal);
+    }
+
+    .party-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-3px);
+    }
+
+    /* Đồ họa hiển thị chuỗi giám sát các phường */
+    .wards-visual-cluster {
+      margin-top: 1.25rem;
+      padding: 1rem;
+      background: var(--color-party-light);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-party-border);
+    }
+
+    .wards-cluster-title {
+      font-size: 0.775rem;
+      font-weight: 700;
+      color: var(--color-party);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .wards-cluster-title svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .wards-nodes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+      gap: 0.5rem;
+    }
+
+    .ward-node {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--color-party-border);
+      border-radius: var(--radius-sm);
+      padding: 0.4rem 0.6rem;
+      font-size: 0.775rem;
+      font-weight: 600;
+      color: var(--text-main);
+      text-align: center;
+      transition: all var(--transition-fast);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.25rem;
+    }
+
+    .ward-node:hover {
+      background-color: var(--color-party);
+      color: #ffffff;
+      transform: scale(1.04);
+    }
+
+    /* ========================================================
+       12B. KHU VỰC TIẾP XÚC CỬ TRI CỦA ĐOÀN ĐBQH TPHCM
+       ======================================================== */
+    .voter-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 900px) {
+      .voter-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .voter-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .voter-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-gold));
+    }
+
+    .voter-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-3px);
+      border-color: var(--border-accent);
+    }
+
+    .voter-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .voter-group-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--color-primary);
+      background-color: var(--color-primary-light);
+      border: 1px solid var(--color-primary-border);
+      padding: 0.35rem 0.75rem;
+      border-radius: var(--radius-sm);
+      letter-spacing: -0.01em;
+    }
+
+    .voter-group-badge svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .voter-badge-date {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.6rem;
+      background-color: var(--bg-body);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+    }
+
+    .voter-body-text {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-main);
+      font-weight: 400;
+      flex: 1;
+    }
+
+    .voter-chips-container {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px dashed var(--border-subtle);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .voter-mode-chip {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.6rem;
+      border-radius: var(--radius-sm);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .mode-direct {
+      background-color: #fef2f2;
+      color: #991b1b;
+      border: 1px solid #fecaca;
+    }
+
+    .mode-online {
+      background-color: #eff6ff;
+      color: #1e40af;
+      border: 1px solid #bfdbfe;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .mode-direct {
+        background-color: rgba(185, 28, 28, 0.2);
+        color: #fca5a5;
+        border-color: rgba(185, 28, 28, 0.4);
+      }
+      .mode-online {
+        background-color: rgba(30, 64, 175, 0.2);
+        color: #93c5fd;
+        border-color: rgba(30, 64, 175, 0.4);
+      }
+    }
+
+    /* ========================================================
+       13. MA TRẬN LỊCH CÔNG TÁC TUẦN 7 NGÀY (INTERACTIVE WEEK MATRIX)
+       Trực quan hóa toàn diện lịch theo trục 7 ngày
+       ======================================================== */
+    .matrix-section {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      margin-top: 3rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .matrix-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .matrix-title-group h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .matrix-title-group p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .matrix-days-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .matrix-day-column {
+      background-color: var(--bg-body);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 0.85rem;
+      min-height: 220px;
+      display: flex;
+      flex-direction: column;
+      transition: all var(--transition-fast);
+    }
+
+    .matrix-day-column.today-col {
+      border-color: var(--color-primary);
+      background-color: var(--color-primary-light);
+    }
+
+    .matrix-day-header {
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
+      text-align: center;
+    }
+
+    .matrix-day-name {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-main);
+      text-transform: uppercase;
+    }
+
+    .matrix-day-date {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-primary);
+    }
+
+    .matrix-event-mini {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 0.5rem;
+      font-size: 0.725rem;
+      line-height: 1.4;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .matrix-event-mini:hover {
+      border-color: var(--color-primary);
+      transform: scale(1.02);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .matrix-event-mini:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ========================================================
+       14. BẢNG TỔNG KẾT & CƠ CẤU NHIỆM VỤ (EXECUTIVE SUMMARY)
+       ======================================================== */
+    .executive-card {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: #f8fafc;
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      margin-top: 3.5rem;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .executive-card-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+
+    .executive-lead {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #cbd5e1;
+      max-width: 900px;
+    }
+
+    .executive-pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+
+    .executive-pillar-item {
+      background-color: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+    }
+
+    .executive-pillar-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fbbf24;
+      margin-bottom: 0.5rem;
+    }
+
+    .executive-pillar-desc {
+      font-size: 0.825rem;
+      color: #e2e8f0;
+      line-height: 1.55;
+    }
+
+    /* ========================================================
+       15. CHÂN TRANG (FOOTER)
+       ======================================================== */
+    .site-footer {
+      background-color: var(--bg-surface);
+      border-top: 1px solid var(--border-subtle);
+      padding: 2rem 1.25rem;
+      margin-top: auto;
+    }
+
+    .footer-container {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .footer-container {
+        flex-direction: row;
+        text-align: left;
+      }
+    }
+
+    .footer-text {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .footer-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    /* Nút cuộn lên đầu trang */
+    .scroll-top-btn {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: var(--color-primary);
+      color: #ffffff;
+      border: none;
+      box-shadow: var(--shadow-lg);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: all var(--transition-normal);
+      z-index: 800;
+    }
+
+    .scroll-top-btn.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .scroll-top-btn:hover {
+      background-color: var(--color-primary-dark);
+      transform: translateY(-2px);
+    }
+
+    /* ========================================================
+       16. MOTION GRAPHIC & HOẠT HỌA CUỘN (SCROLL ANIMATIONS)
+       ======================================================== */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .reveal-on-scroll.revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Hiệu ứng xung nhịp nhẹ biểu thị hoạt động đang diễn ra */
+    @keyframes pulse-ring {
+      0% {
+        transform: scale(0.95);
+        opacity: 0.8;
+      }
+      50% {
+        transform: scale(1.15);
+        opacity: 0.3;
+      }
+      100% {
+        transform: scale(0.95);
+        opacity: 0.8;
+      }
+    }
+
+    .pulse-indicator {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: var(--color-primary);
+      position: relative;
+    }
+
+    .pulse-indicator::after {
+      content: '';
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid var(--color-primary);
+      animation: pulse-ring 2s infinite ease-in-out;
+    }
+
+    /* Highlight văn bản khi lọc */
+    mark.highlight {
+      background-color: #fef08a;
+      color: #854d0e;
+      padding: 0 3px;
+      border-radius: 2px;
+    }
+
+    /* Hộp thông báo trạng thái không tìm thấy */
+    .no-results-msg {
+      display: none;
+      text-align: center;
+      padding: 3rem 1.5rem;
+      background-color: var(--bg-surface);
+      border: 1px dashed var(--border-accent);
+      border-radius: var(--radius-lg);
+      color: var(--text-muted);
+      margin: 1.5rem 0;
+    }
+
+    /* ========================================================
+       17. IN ẤN & XUẤT BẢN (PRINT STYLES)
+       ======================================================== */
+    @media print {
+      body {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+      }
+      .top-navbar, .interactive-toolbar, .scroll-top-btn, .nav-actions {
+        display: none !important;
+      }
+      .hero-infographic, .event-card, .survey-card, .party-card {
+        box-shadow: none !important;
+        border: 1px solid #cccccc !important;
+        break-inside: avoid;
+      }
+      #scroll-progress {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========================================================
+       A. THANH TIẾN ĐỘ CUỘN TRANG (SCROLL PROGRESS)
+       ======================================================== -->
+  <div id="scroll-progress" role="progressbar" aria-label="Tiến độ theo dõi Infographic" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+  <!-- ========================================================
+       C. NỘI DUNG CHÍNH (MAIN WRAPPER)
+       ======================================================== -->
+  <main class="main-wrapper" id="main-content">
+
+    <!-- ----------------------------------------------------
+         1. HERO INFOGRAPHIC BANNER & ĐOẠN DẪN NHẬP
+         Nội dung nguyên bản 100% không thêm bớt một từ
+         ---------------------------------------------------- -->
+    <section class="hero-infographic reveal-on-scroll" id="hero" aria-labelledby="hero-title-id">
+      <!-- TIÊU ĐỀ NGUYÊN VĂN 100% - NHẤN NHÁ & XUỐNG DÒNG RÕ NGHĨA -->
+      <h1 class="hero-title" id="hero-title-id">
+        <span class="hero-title-main">Thông Tin Trọng Tâm</span>
+        <span class="hero-title-sub">Lịch Công Tác Tuần 39</span>
+        <span class="hero-title-date">(28-9 đến 4-10)</span>
+      </h1>
+
+      <!-- ĐOẠN DẪN NHẬP NGUYÊN VĂN 100% -->
+      <p class="hero-lead-text">
+        Tuần 39, HĐND TPHCM tập trung vào công tác khảo sát, làm việc với các sở, ngành để xây dựng các dự thảo Nghị quyết triển khai Luật Phát triển đô thị và chuẩn bị cho Kỳ họp thứ 6. Lịch trình công tác tập trung vào các nhóm nhiệm vụ trọng điểm sau:
+      </p>
+    </section>
+
+    <!-- ----------------------------------------------------
+         2. BỘ LỌC TƯƠNG TÁC (INTERACTIVE TOOLBAR)
+         ---------------------------------------------------- -->
+    <div class="interactive-toolbar reveal-on-scroll">
+      <div class="toolbar-top-row">
+        <!-- Bộ chọn theo từng ngày (Day Selector) -->
+        <div class="day-filter-container" role="toolbar" aria-label="Lọc theo ngày trong tuần">
+          <button class="day-pill-btn active" data-day="all">Tất cả</button>
+          <button class="day-pill-btn" data-day="28-9">Thứ hai (28-9)</button>
+          <button class="day-pill-btn" data-day="29-9">Thứ ba (29-9)</button>
+          <button class="day-pill-btn" data-day="30-9">Thứ tư (30-9)</button>
+          <button class="day-pill-btn" data-day="1-10">Thứ năm (1-10)</button>
+          <button class="day-pill-btn" data-day="2-10">Thứ sáu (2-10)</button>
+          <button class="day-pill-btn" data-day="3-10">Thứ bảy (3-10)</button>
+          <button class="day-pill-btn" data-day="4-10">Chủ nhật (4-10)</button>
+          <button class="day-pill-btn" data-day="5-10">Thứ hai (5-10)</button>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- ====================================================
+         SECTION 1: HOẠT ĐỘNG CHỈ ĐẠO, ĐIỀU HÀNH CỦA THƯỜNG TRỰC HĐND TPHCM
+         TIÊU ĐỀ & 6 ĐOẠN VĂN GIỮ NGUYÊN VĂN 100%
+         ==================================================== -->
+    <section class="section-block reveal-on-scroll" id="section-1" data-section="thuong-truc" aria-labelledby="section-1-title">
+      <div class="section-header-box">
+        <div class="section-number-badge">1</div>
+        <div class="section-header-content">
+          <h2 class="section-title" id="section-1-title">
+            Hoạt động chỉ đạo, điều hành của Thường trực HĐND TPHCM
+          </h2>
+        </div>
+      </div>
+
+      <!-- Dòng thời gian Timeline biểu diễn 6 sự kiện -->
+      <div class="timeline-stream">
+        
+        <!-- Mục 1.1 -->
+        <article class="timeline-item filterable-card" data-days="28-9" data-cats="thuong-truc">
+          <div class="timeline-node" aria-hidden="true"></div>
+          <div class="event-card">
+            <div class="event-meta-row">
+              <div class="event-meta-left">
+                <span class="event-tag tag-primary">Thứ hai · 28-9</span>
+              </div>
+              
+            </div>
+            <!-- NỘI DUNG NGUYÊN BẢN 100% ĐƯỢC TÁCH CỤM CÓ NGHĨA -->
+            <div class="event-text">
+              <div class="content-row">
+                
+                <strong>Chủ tịch HĐND TPHCM Võ Văn Minh</strong>
+              </div>
+              <div style="margin-top: 0.35rem; color: var(--text-main);">
+                Chủ trì họp giao ban Thường trực HĐND với các Ban, Văn phòng.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mục 1.2 -->
+        <article class="timeline-item filterable-card" data-days="28-9" data-cats="thuong-truc">
+          <div class="timeline-node" aria-hidden="true"></div>
+          <div class="event-card">
+            <div class="event-meta-row">
+              <div class="event-meta-left">
+                <span class="event-tag tag-primary">Thứ hai · 28-9</span>
+              </div>
+              
+            </div>
+            <!-- NỘI DUNG NGUYÊN BẢN 100% ĐƯỢC TÁCH CỤM CÓ NGHĨA -->
+            <div class="event-text">
+              <div class="content-row">
+                
+                <strong>Phó Chủ tịch HĐND TPHCM Nguyễn Trường Nhật Phượng</strong>
+              </div>
+              <div style="margin-top: 0.35rem; color: var(--text-main);">
+                Làm việc với Phòng Dân nguyện - Truyền thông về công tác tiếp nhận, xử lý đơn thư công dân.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mục 1.3 -->
+        <article class="timeline-item filterable-card" data-days="30-9" data-cats="thuong-truc">
+          <div class="timeline-node" aria-hidden="true"></div>
+          <div class="event-card">
+            <div class="event-meta-row">
+              <div class="event-meta-left">
+                <span class="event-tag tag-primary">Thứ tư · 30-9</span>
+              </div>
+              
+            </div>
+            <!-- NỘI DUNG NGUYÊN BẢN 100% ĐƯỢC TÁCH CỤM CÓ NGHĨA -->
+            <div class="event-text">
+              <div class="content-row">
+                
+                <strong>Chủ tịch HĐND TPHCM Võ Văn Minh</strong>
+              </div>
+              <div style="margin-top: 0.35rem; color: var(--text-main);">
+               Chủ trì phiên họp quan trọng của Tổ chỉ đạo di dời nhà trên và ven sông, kênh, rạch trên địa bàn Thành phố.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mục 1.4 -->
+        <article class="timeline-item filterable-card" data-days="1-10" data-cats="thuong-truc">
+          <div class="timeline-node" aria-hidden="true"></div>
+          <div class="event-card">
+            <div class="event-meta-row">
+              <div class="event-meta-left">
+                <span class="event-tag tag-primary">Thứ năm · 1-10</span>
+              </div>
+              
+            </div>
+            <!-- NỘI DUNG NGUYÊN BẢN 100% ĐƯỢC TÁCH CỤM CÓ NGHĨA -->
+            <div class="event-text">
+              <div class="content-row">
+                
+                <strong>Phó Chủ tịch Thường trực HĐND TPHCM Nguyễn Văn Thọ</strong>
+              </div>
+              <div style="margin-top: 0.35rem; color: var(--text-main);">
+                Dự Phiên họp Ban Chỉ đạo phòng, chống tham nhũng, lãng phí, tiêu cực Thành phố.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mục 1.5 -->
+        <article class="timeline-item filterable-card" data-days="2-10" data-cats="thuong-truc">
+          <div class="timeline-node" aria-hidden="true"></div>
+          <div class="event-card">
+            <div class="event-meta-row">
+              <div class="event-meta-left">
+                <span class="event-tag tag-primary">Thứ sáu · 2-10</span>
+              </div>
+              
+            </div>
+            <!-- NỘI DUNG NGUYÊN BẢN 100% ĐƯỢC TÁCH CỤM CÓ NGHĨA -->
+            <div class="event-text">
+              <div class="content-row">
+                
+                <strong>Chủ tịch HĐND TPHCM Võ Văn Minh</strong>
+              </div>
+              <div style="margin-top: 0.35rem; color: var(--text-main);">
+                Tham dự đợt tiếp xúc cử tri của Đoàn ĐBQH Thành phố sau Kỳ họp thứ 2.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mục 1.6 -->
+        <article class="timeline-item filterable-card" data-days="3-10" data-cats="thuong-truc">
+          <div class="timeline-node" aria-hidden="true"></div>
+          <div class="event-card">
+            <div class="event-meta-row">
+              <div class="event-meta-left">
+                <span class="event-tag tag-primary">Thứ bảy · 3-10</span>
+              </div>
+              
+            </div>
+            <!-- NỘI DUNG NGUYÊN BẢN 100% ĐƯỢC TÁCH CỤM CÓ NGHĨA -->
+            <div class="event-text">
+              <div class="content-row">
+                
+                <strong>Chủ tịch HĐND TPHCM Võ Văn Minh</strong>
+              </div>
+              <div style="margin-top: 0.35rem; color: var(--text-main);">
+                Dự Phiên họp Chính phủ thường kỳ tháng 9-2026.
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ====================================================
+         SECTION 2: CÔNG TÁC KHẢO SÁT CHUYÊN SÂU TRIỂN KHAI LUẬT PHÁT TRIỂN ĐÔ THỊ VÀ CHUẨN BỊ KỲ HỌP THỨ 6
+         TIÊU ĐỀ & 4 BAN CHUYÊN TRÁCH GIỮ NGUYÊN VĂN 100%
+         ==================================================== -->
+    <section class="section-block reveal-on-scroll" id="section-2" data-section="khao-sat" aria-labelledby="section-2-title">
+      <div class="section-header-box">
+        <div class="section-number-badge">2</div>
+        <div class="section-header-content">
+          <h2 class="section-title" id="section-2-title">
+            Công tác khảo sát chuyên sâu triển khai Luật Phát triển đô thị và chuẩn bị Kỳ họp thứ 6
+          </h2>
+        </div>
+      </div>
+
+      <div class="survey-grid">
+        
+        <!-- Ban Đô thị -->
+        <article class="survey-card card-urban filterable-card" data-days="29-9,1-10" data-cats="ban-do-thi">
+          <div class="survey-card-header">
+            <div>
+              <span class="event-tag tag-urban">Ban Đô thị</span>
+            </div>
+          </div>
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG -->
+          <div class="survey-body-text inner-timeline">
+            <div class="inner-timeline-step step-urban">
+              <span class="inner-timeline-badge tag-urban">Chiều thứ ba · 29-9</span>
+              <div>Khảo sát Sở Quy hoạch - Kiến trúc về mức thu khu vực TOD.</div>
+            </div>
+            <div class="inner-timeline-step step-urban">
+              <span class="inner-timeline-badge tag-urban">Sáng thứ năm · 1-10</span>
+              <div>Khảo sát Sở Xây dựng về các nội dung dự thảo Nghị quyết.</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Ban Kinh tế - Ngân sách -->
+        <article class="survey-card card-finance filterable-card" data-days="29-9,30-9,1-10,2-10" data-cats="ban-kt-ns">
+          <div class="survey-card-header">
+            <div>
+              <span class="event-tag" style="background-color: var(--color-gold-light); color: var(--color-gold); border: 1px solid var(--color-gold-border);">Ban Kinh tế - Ngân sách</span>
+            </div>
+          </div>
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG -->
+          <div class="survey-body-text inner-timeline">
+            <div class="inner-timeline-step step-finance">
+              <span class="inner-timeline-badge" style="background-color: var(--color-gold-light); color: var(--color-gold); border: 1px solid var(--color-gold-border);">Thứ ba (29-9) & Thứ tư (30-9)</span>
+              <div>Khảo sát diện rộng tại Sở Công thương, Sở NN-MT, Sở Tài chính.</div>
+            </div>
+            <div class="inner-timeline-step step-finance">
+              <span class="inner-timeline-badge" style="background-color: var(--color-gold-light); color: var(--color-gold); border: 1px solid var(--color-gold-border);">Thứ năm (1-10) & Thứ sáu (2-10)</span>
+              <div>Khảo sát cơ sở hạ tầng nông thôn mới tại khu vực Hóc Môn, Củ Chi, Cần Giờ.</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Ban Pháp chế -->
+        <article class="survey-card card-legal filterable-card" data-days="29-9,1-10" data-cats="ban-phap-che">
+          <div class="survey-card-header">
+            <div>
+              <span class="event-tag tag-legal">Ban Pháp chế</span>
+            </div>
+          </div>
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG -->
+          <div class="survey-body-text inner-timeline">
+            <div class="inner-timeline-step step-legal">
+              <span class="inner-timeline-badge tag-legal">Chiều thứ ba (29-9)</span>
+              <div>Khảo sát chính sách hỗ trợ phát triển dịch vụ pháp lý và giải quyết tranh chấp quốc tế.</div>
+            </div>
+            <div class="inner-timeline-step step-legal">
+              <span class="inner-timeline-badge tag-legal">Sáng thứ năm (1-10)</span>
+              <div>Khảo sát chính sách thu hút nhân lực chất lượng cao.</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Ban Văn hóa - Xã hội -->
+        <article class="survey-card card-social filterable-card" data-days="29-9,30-9,1-10,2-10" data-cats="ban-vh-xh">
+          <div class="survey-card-header">
+            <div>
+              <span class="event-tag tag-primary">Ban Văn hóa - Xã hội</span>
+            </div>
+          </div>
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG -->
+          <div class="survey-body-text inner-timeline">
+            <div class="inner-timeline-step step-social">
+              <span class="inner-timeline-badge tag-primary">29-9 đến 1-10</span>
+              <div>Làm việc với Sở Giáo dục và Đào tạo (29-9), Sở Văn hóa và Thể thao (30-9), Sở Y tế, Sở Nội vụ (1-10) để cụ thể hóa Luật Phát triển đô thị.</div>
+            </div>
+            <div class="inner-timeline-step step-social">
+              <span class="inner-timeline-badge tag-primary">Sáng thứ sáu (2-10)</span>
+              <div>Khảo sát công tác cấp giấy tờ tùy thân và bảo vệ trẻ em tại khu vực Gò Vấp.</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ====================================================
+         SECTION 3: CÔNG TÁC KIỂM TRA ĐẢNG VÀ GIÁM SÁT CHUYÊN ĐỀ
+         TIÊU ĐỀ & 2 NỘI DUNG GIỮ NGUYÊN VĂN 100%
+         ==================================================== -->
+    <section class="section-block reveal-on-scroll" id="section-3" data-section="kiem-tra" aria-labelledby="section-3-title">
+      <div class="section-header-box">
+        <div class="section-number-badge">3</div>
+        <div class="section-header-content">
+          <h2 class="section-title" id="section-3-title">
+            Công tác kiểm tra Đảng và Giám sát chuyên đề
+          </h2>
+        </div>
+      </div>
+
+      <div class="party-grid">
+        
+        <!-- Mục 3.1: UBKT Đảng ủy -->
+        <article class="party-card filterable-card" data-days="30-9" data-cats="kiem-tra-dang">
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG -->
+          <div class="event-text inner-timeline">
+            <div class="inner-timeline-step step-party">
+              <span class="inner-timeline-badge tag-party">Chiều thứ tư (30-9)</span>
+              <div>UBKT Đảng ủy nghe báo cáo tiến độ giám sát công tác phòng, chống tham nhũng, lãng phí.</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mục 3.2: Ban Nội Chính Thành ủy & Chuỗi giám sát 8 phường -->
+        <article class="party-card filterable-card" data-days="28-9,29-9,30-9,1-10,2-10,3-10,4-10" data-cats="kiem-tra-dang">
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG -->
+          <div class="event-text inner-timeline">
+            <div class="inner-timeline-step step-party">
+              <span class="inner-timeline-badge tag-urban">Từ 28-9 đến 4-10</span>
+              <div>Ban Nội Chính Thành ủy triển khai chuỗi giám sát tại Đảng ủy các phường: Bình Quới, Dĩ An, Nhà Bè, Cát Lái, Long Bình, Long Hương, Ngãi Giao, Bình Châu…</div>
+            </div>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ====================================================
+         SECTION 4: LỊCH TIẾP XÚC CỬ TRI CỦA ĐOÀN ĐBQH TPHCM TRƯỚC KỲ HỌP THỨ 2, QUỐC HỘI KHÓA XVI
+         TIÊU ĐỀ & 4 TỔ ĐẠI BIỂU GIỮ NGUYÊN VĂN 100%
+         ==================================================== -->
+    <section class="section-block reveal-on-scroll" id="section-voters" data-section="tiep-xuc-cu-tri" aria-labelledby="voters-section-title">
+      <div class="section-header-box">
+        <div class="section-number-badge">4</div>
+        <div class="section-header-content">
+          <h2 class="section-title" id="voters-section-title">
+            Lịch tiếp xúc cử tri của Đoàn ĐBQH TPHCM trước kỳ họp thứ 2, Quốc hội khóa XVI
+          </h2>
+        </div>
+      </div>
+
+      <div class="voter-grid">
+
+        <!-- Tổ ĐB số 9 -->
+        <article class="voter-card filterable-card" data-days="28-9" data-cats="tiep-xuc-cu-tri">
+          <div class="voter-card-header">
+            <div class="voter-group-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              <span>Tổ ĐB số 9</span>
+            </div>
+          </div>
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG - TÁCH CỤM CÓ NGHĨA -->
+          <div class="voter-body-text inner-timeline">
+            <div class="inner-timeline-step step-voter">
+              <span class="inner-timeline-badge" style="background-color: #fef2f2; color: #991b1b; border: 1px solid #fecaca;">Lúc 8 giờ ngày 28-9-2026</span>
+              <div class="content-sub-item">
+                <div class="content-row">
+                  
+                  <span> <strong>Tiếp xúc cử tri các phường:</strong> Thạnh Mỹ Tây, Bình Quới, An Khánh, Bình Lợi Trung, Bình Thạnh, Gia Định, An Hội Đông, An Hội Tây, Thông Tây Hội, An Nhơn, Gò Vấp, Hạnh Thông,</span>
+                </div>
+                <div style="margin-top: 0.35rem; color: var(--text-main);">
+                  <strong>Tiếp xúc trực tiếp tại trụ sở UBND phường Bình Lợi Trung</strong> (355/5 Nơ Trang Long, phường Bình Lợi Trung)
+                </div>
+                <div style="margin-top: 0.25rem; color: var(--text-muted); font-size: 0.9rem;">
+                  <strong>Kết nối trực tuyến với các phường:</strong> Thạnh Mỹ Tây, Bình Quới, An Khánh, Bình Lợi Trung, Bình Thạnh, Gia Định, An Hội Đông, An Hội Tây, Thông Tây Hội, An Nhơn, Gò Vấp, Hạnh Thông.
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tổ ĐB số 10 -->
+        <article class="voter-card filterable-card" data-days="2-10" data-cats="tiep-xuc-cu-tri">
+          <div class="voter-card-header">
+            <div class="voter-group-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              <span>Tổ ĐB số 10</span>
+            </div>
+          </div>
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG - TÁCH CỤM CÓ NGHĨA -->
+          <div class="voter-body-text inner-timeline">
+            <div class="inner-timeline-step step-voter">
+              <span class="inner-timeline-badge" style="background-color: #fef2f2; color: #991b1b; border: 1px solid #fecaca;">Lúc 8 giờ ngày 2-10-2026</span>
+              <div class="content-sub-item">
+                <div class="content-row">
+                  
+                  <span><strong>Tiếp xúc cử tri các phường:</strong> Trung Mỹ Tây, Đông Hưng Thuận, An Phú Đông, Thới An, Tân Thới Hiệp, Tân Tạo, Bình Trị Đông, Bình Hưng Hòa, Bình Tân,</span>
+                </div>
+                <div style="margin-top: 0.35rem; color: var(--text-main);">
+                  <strong>Trực tiếp tại trụ sở UBND phường An Phú Đông</strong> (540 Hà Huy Giáp, khu phố 28, phường An Phú Đông)
+                </div>
+                <div style="margin-top: 0.25rem; color: var(--text-muted); font-size: 0.9rem;">
+                  <strong>Kết nối trực tuyến với các điểm cầu các phường:</strong> Trung Mỹ Tây, Đông Hưng Thuận, Thới An, Tân Thới Hiệp.
+                </div>
+              </div>
+            </div>
+            <div class="inner-timeline-step step-voter">
+              <span class="inner-timeline-badge" style="background-color: #fef2f2; color: #991b1b; border: 1px solid #fecaca;">Lúc 14 giờ ngày 2-10-2026</span>
+              <div class="content-sub-item">
+                <div style="color: var(--text-main);">
+                  <strong>Trực tiếp tại trụ sở UBND phường Tân Tạo</strong> (hội trường A, 1409 tỉnh lộ 10, phường Tân Tạo)
+                </div>
+                <div style="margin-top: 0.25rem; color: var(--text-muted); font-size: 0.9rem;">
+                  <strong>Kết nối trực tuyến với các điểm cầu các phường:</strong> Bình Tân, Bình Trị Đông, Bình Hưng Hòa.
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tổ ĐB số 12 -->
+        <article class="voter-card filterable-card" data-days="2-10" data-cats="tiep-xuc-cu-tri">
+          <div class="voter-card-header">
+            <div class="voter-group-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              <span>Tổ ĐB số 12</span>
+            </div>
+          </div>
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG - TÁCH CỤM CÓ NGHĨA -->
+          <div class="voter-body-text inner-timeline">
+            <div class="inner-timeline-step step-voter">
+              <span class="inner-timeline-badge" style="background-color: #fef2f2; color: #991b1b; border: 1px solid #fecaca;">Lúc 14 giờ ngày 2-10-2026</span>
+              <div class="content-sub-item">
+                <div class="content-row">
+                  
+                  <span><strong>Tiếp xúc cử tri các xã:</strong> Hóc Môn, Xuân Thới Sơn, Bà Điểm, Phú Hòa Đông, Đông Thạnh, Bình Mỹ, An Nhơn Tây, Nhuận Đức, Thái Mỹ, Tân An Hội, Củ Chi,</span>
+                </div>
+                <div style="margin-top: 0.35rem; color: var(--text-main);">
+                  <strong>Trực tiếp tại hội trường HĐND-UBND xã Bình Mỹ</strong> (số 1627 tỉnh lộ 8, ấp 12, xã Bình Mỹ),
+                </div>
+                <div style="margin-top: 0.25rem; color: var(--text-muted); font-size: 0.9rem;">
+                  <strong>Kết nối trực tuyến với các điểm cầu các xã:</strong> Xuân Thới Sơn, Bà Điểm, Phú Hòa Đông, Đông Thạnh, Hóc Môn, An Nhơn Tây, Nhuận Đức, Thái Mỹ, Tân An Hội, Củ Chi.
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tổ ĐB số 5 -->
+        <article class="voter-card filterable-card" data-days="2-10,5-10" data-cats="tiep-xuc-cu-tri">
+          <div class="voter-card-header">
+            <div class="voter-group-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              <span>Tổ ĐB số 5</span>
+            </div>
+          </div>
+          <!-- NỘI DUNG NGUYÊN BẢN 100% TRÌNH BÀY DẠNG TIMELINE PHÍA TRONG - TÁCH CỤM CÓ NGHĨA -->
+          <div class="voter-body-text inner-timeline">
+            <div class="inner-timeline-step step-voter">
+              <span class="inner-timeline-badge" style="background-color: #fef2f2; color: #991b1b; border: 1px solid #fecaca;">Lúc 14 giờ ngày 2-10-2026</span>
+              <div class="content-sub-item">
+                <div class="content-row">
+                  
+                  <span><strong>Tiếp xúc cử tri Đặc khu Côn Đảo và các xã, phường:</strong> Long Điền, Long Hải, Đất Đỏ, Phước Hải, Tam Long, Ngãi Giao, Nghĩa Thành, Kim Long,</span>
+                </div>
+                <div style="margin-top: 0.35rem; color: var(--text-main);">
+                  <strong>Trực tiếp tại hội trường Đảng ủy xã Ngãi Giao</strong> (số 68 Trần Hưng Đạo, xã Ngãi Giao)
+                </div>
+                <div style="margin-top: 0.25rem; color: var(--text-muted); font-size: 0.9rem;">
+                  <strong>Kết nối trực tuyến với các điểm cầu của các xã, phường, đặc khu:</strong> Côn Đảo, Long Điền, Long Hải, Đất Đỏ, Phước Hải, Tam Long, Nghĩa Thành, Kim Long.
+                </div>
+              </div>
+            </div>
+            <div class="inner-timeline-step step-voter">
+              <span class="inner-timeline-badge" style="background-color: #fef2f2; color: #991b1b; border: 1px solid #fecaca;">Lúc 8 giờ ngày 5-10-2026</span>
+              <div class="content-sub-item">
+                <div style="color: var(--text-main);">
+                  <strong>Tiếp xúc cử tri các xã:</strong> Bình Châu, Hồ Tràm, Xuyên Mộc, Bàu Lâm, Hòa Hội, Hòa Hiệp, Xuân Sơn, Bình Giã,
+                </div>
+                <div style="margin-top: 0.35rem; color: var(--text-main);">
+                  <strong>Trực tiếp tại hội trường xã Bình Châu</strong> (quốc lộ 55, ấp Láng Găng, xã Bình Châu)
+                </div>
+                <div style="margin-top: 0.25rem; color: var(--text-muted); font-size: 0.9rem;">
+                  <strong>Kết nối trực tuyến với các điểm cầu của các xã:</strong> Hồ Tràm, Xuyên Mộc, Bàu Lâm, Hòa Hội, Hòa Hiệp, Xuân Sơn, Bình Giã.
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       D. NÚT CUỘN LÊN ĐẦU TRANG (BACK TO TOP)
+       ======================================================== -->
+  <button id="back-to-top" class="scroll-top-btn" title="Lên đầu trang" aria-label="Cuộn lên đầu trang">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <!-- ========================================================
+       F. MÃ JAVASCRIPT ĐIỀU KHIỂN TƯƠNG TÁC & HOẠT HỌA (VANILLA JS)
+       Mã nguồn độc lập, sạch sẽ, có chú thích chi tiết
+       ======================================================== -->
+  <script>
+    /**
+     * @file index.html - Script điều khiển tương tác và đồ họa chuyển động
+     * @description Xử lý toàn bộ logic: thanh tiến độ cuộn, cuộn mượt, lọc theo ngày,
+     * lọc theo ban ngành, tìm kiếm thời gian thực và hoạt họa Scroll-triggered.
+     */
+
+    document.addEventListener('DOMContentLoaded', function () {
+      'use strict';
+
+      // ========================================================
+      // 1. KHỞI TẠO CÁC BIẾN & PHẦN TỬ DOM (DOM REFERENCES)
+      // ========================================================
+      const progressBar = document.getElementById('scroll-progress');
+      const backToTopBtn = document.getElementById('back-to-top');
+      const navLinks = document.querySelectorAll('.nav-link');
+      const dayPillBtns = document.querySelectorAll('.day-pill-btn');
+      const groupPillBtns = document.querySelectorAll('.group-pill-btn');
+      const searchInput = document.getElementById('schedule-search');
+      const filterableCards = document.querySelectorAll('.filterable-card');
+      const noResultsBox = document.getElementById('no-results');
+      const btnPrint = document.getElementById('btn-print');
+      const matrixColumns = document.querySelectorAll('.matrix-day-column');
+
+      // Biến lưu trạng thái lọc hiện hành
+      let currentDayFilter = 'all';
+      let currentCategoryFilter = 'all';
+      let currentSearchQuery = '';
+
+      // ========================================================
+      // 2. XỬ LÝ THANH TIẾN ĐỘ CUỘN & NÚT VỀ ĐẦU TRANG
+      // ========================================================
+      function handleScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+        
+        // Cập nhật thanh tiến độ
+        if (progressBar) {
+          progressBar.style.width = progress + '%';
+          progressBar.setAttribute('aria-valuenow', Math.round(progress));
+        }
+
+        // Ẩn/Hiện nút Back to Top khi cuộn quá 300px
+        if (backToTopBtn) {
+          if (scrollTop > 300) {
+            backToTopBtn.classList.add('visible');
+          } else {
+            backToTopBtn.classList.remove('visible');
+          }
+        }
+
+        // Cập nhật Active Link trên Navbar theo vị trí cuộn (ScrollSpy)
+        updateActiveNavLink(scrollTop);
+      }
+
+      window.addEventListener('scroll', handleScroll, { passive: true });
+
+      // Sự kiện bấm nút Back to Top
+      if (backToTopBtn) {
+        backToTopBtn.addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      // ========================================================
+      // 3. THEO DÕI VỊ TRÍ ĐỂ CẬP NHẬT MENU ĐIỀU HƯỚNG (SCROLLSPY)
+      // ========================================================
+      function updateActiveNavLink(currentScroll) {
+        const sections = [
+          { id: 'hero', element: document.getElementById('hero') },
+          { id: 'section-1', element: document.getElementById('section-1') },
+          { id: 'section-2', element: document.getElementById('section-2') },
+          { id: 'section-3', element: document.getElementById('section-3') },
+          { id: 'section-voters', element: document.getElementById('section-voters') }
+        ];
+
+        let activeId = 'hero';
+        sections.forEach(function (sec) {
+          if (sec.element) {
+            const top = sec.element.offsetTop - 120;
+            const height = sec.element.offsetHeight;
+            if (currentScroll >= top && currentScroll < top + height) {
+              activeId = sec.id;
+            }
+          }
+        });
+
+        navLinks.forEach(function (link) {
+          const href = link.getAttribute('href');
+          if (href === '#' + activeId) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      }
+
+      // ========================================================
+      // 4. BỘ LỌC ĐA NĂNG: THEO NGÀY, THEO BAN VÀ THEO TỪ KHÓA
+      // ========================================================
+      function applyCombinedFilters() {
+        let visibleCount = 0;
+        const query = currentSearchQuery.trim().toLowerCase();
+
+        filterableCards.forEach(function (card) {
+          const cardDays = (card.getAttribute('data-days') || '').split(',');
+          const cardCats = (card.getAttribute('data-cats') || '').split(',');
+          const cardText = card.textContent.toLowerCase();
+
+          // Kiểm tra điều kiện ngày
+          const matchesDay = (currentDayFilter === 'all') || cardDays.includes(currentDayFilter);
+          
+          // Kiểm tra điều kiện ban ngành
+          const matchesCat = (currentCategoryFilter === 'all') || cardCats.includes(currentCategoryFilter);
+          
+          // Kiểm tra điều kiện từ khóa tìm kiếm
+          const matchesSearch = (query === '') || cardText.includes(query);
+
+          if (matchesDay && matchesCat && matchesSearch) {
+            card.style.display = '';
+            visibleCount++;
+            // Hiệu ứng Fade in mượt
+            card.style.opacity = '1';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Cập nhật ma trận tuần nổi bật theo ngày được chọn (nếu có)
+        if (matrixColumns && matrixColumns.length > 0) {
+          matrixColumns.forEach(function (col) {
+            const colDay = col.getAttribute('data-col-day');
+            if (currentDayFilter === 'all') {
+              col.style.opacity = '1';
+              col.classList.remove('today-col');
+            } else if (colDay === currentDayFilter) {
+              col.style.opacity = '1';
+              col.classList.add('today-col');
+            } else {
+              col.style.opacity = '0.35';
+              col.classList.remove('today-col');
+            }
+          });
+        }
+
+        // Ẩn/Hiện thông báo không có kết quả
+        if (noResultsBox) {
+          noResultsBox.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+      }
+
+      // Xử lý sự kiện bấm lọc theo ngày
+      dayPillBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          dayPillBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentDayFilter = this.getAttribute('data-day') || 'all';
+          applyCombinedFilters();
+        });
+      });
+
+      // Xử lý sự kiện bấm lọc theo nhóm nhiệm vụ
+      groupPillBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          groupPillBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentCategoryFilter = this.getAttribute('data-category') || 'all';
+          applyCombinedFilters();
+        });
+      });
+
+      // Xử lý sự kiện tìm kiếm từ khóa với Debounce nhẹ
+      let searchTimeout = null;
+      if (searchInput) {
+        searchInput.addEventListener('input', function (e) {
+          clearTimeout(searchTimeout);
+          searchTimeout = setTimeout(function () {
+            currentSearchQuery = e.target.value;
+            applyCombinedFilters();
+          }, 150);
+        });
+      }
+
+      // ========================================================
+      // 5. HOẠT HỌA XUẤT HIỆN KHI CUỘN (SCROLL-TRIGGERED ANIMATIONS)
+      // Sử dụng IntersectionObserver để tối ưu hiệu năng tuyệt đối
+      // ========================================================
+      const animatedElements = document.querySelectorAll('.reveal-on-scroll');
+      if ('IntersectionObserver' in window) {
+        const scrollObserver = new IntersectionObserver(function (entries, observer) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+              observer.unobserve(entry.target); // Chỉ chạy hoạt họa một lần khi xuất hiện
+            }
+          });
+        }, {
+          threshold: 0.1,
+          rootMargin: '0px 0px -40px 0px'
+        });
+
+        animatedElements.forEach(function (el) {
+          scrollObserver.observe(el);
+        });
+      } else {
+        // Dự phòng cho trình duyệt cũ không hỗ trợ IntersectionObserver
+        animatedElements.forEach(function (el) {
+          el.classList.add('revealed');
+        });
+      }
+
+      // ========================================================
+      // 6. TIỆN ÍCH IN ẤN / XUẤT BẢN PDF
+      // ========================================================
+      if (btnPrint) {
+        btnPrint.addEventListener('click', function () {
+          window.print();
+        });
+      }
+
+      // ========================================================
+      // 7. HỖ TRỢ TƯƠNG TÁC TỪ MA TRẬN LỊCH SANG DANH SÁCH CHI TIẾT
+      // ========================================================
+      window.scrollToItem = function (targetDay) {
+        // Tự động kích hoạt tab ngày tương ứng
+        dayPillBtns.forEach(function (b) {
+          if (b.getAttribute('data-day') === targetDay) {
+            b.click();
+          }
+        });
+        
+        // Cuộn mượt đến phần tương ứng
+        if (targetDay === '5-10') {
+          const sectionVoters = document.getElementById('section-voters');
+          if (sectionVoters) {
+            sectionVoters.scrollIntoView({ behavior: 'smooth' });
+            return;
+          }
+        }
+        
+        const section1 = document.getElementById('section-1');
+        if (section1) {
+          section1.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
+      // ========================================================
+      // 8. XỬ LÝ ĐÓNG / MỞ RỘNG (COLLAPSE/EXPAND) CHO TIMELINE TRÊN MOBILE
+      // ========================================================
+      const timelineCards = document.querySelectorAll('.timeline-stream .timeline-item');
+      timelineCards.forEach(function (item) {
+        const toggleBtn = item.querySelector('.event-collapse-btn');
+        const card = item.querySelector('.event-card');
+        const toggleLabel = toggleBtn ? toggleBtn.querySelector('.toggle-label') : null;
+
+        function toggleTimelineItem(e) {
+          // Chỉ kích hoạt toggle khi ở kích thước màn hình mobile (< 768px)
+          if (window.innerWidth >= 768) return;
+
+          const isCollapsed = item.classList.toggle('collapsed');
+          if (toggleBtn) {
+            toggleBtn.setAttribute('aria-expanded', !isCollapsed);
+            toggleBtn.classList.toggle('is-collapsed', isCollapsed);
+            if (toggleLabel) {
+              toggleLabel.textContent = isCollapsed ? 'Mở rộng' : 'Thu gọn';
+            }
+          }
+        }
+
+        // Bấm vào nút thu gọn/mở rộng
+        if (toggleBtn) {
+          toggleBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            toggleTimelineItem(e);
+          });
+        }
+
+        // Hoặc chạm/bấm trực tiếp vào thanh tiêu đề sự kiện trên mobile để dễ thao tác
+        if (card) {
+          const metaRow = card.querySelector('.event-meta-row');
+          if (metaRow) {
+            metaRow.addEventListener('click', function (e) {
+              if (window.innerWidth < 768 && !e.target.closest('.event-collapse-btn')) {
+                toggleTimelineItem(e);
+              }
+            });
+          }
+        }
+      });
+
+    });
+  </script>
+</body>
+</html>

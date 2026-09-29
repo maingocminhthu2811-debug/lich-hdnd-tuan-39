@@ -1,0 +1,6 @@
+{
+  "name": "Lịch Công Tác Tuần 39 - HĐND TPHCM",
+  "description": "Trang web Infographic Tương tác Thông tin trọng tâm Lịch công tác Tuần 39 (28-9 đến 4-10) của Hội đồng Nhân dân Thành phố Hồ Chí Minh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
